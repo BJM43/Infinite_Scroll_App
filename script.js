@@ -61,7 +61,7 @@ const displayPhotos = () => {
   });
 };
 
-// Get photos from Unsplash API
+// Optener fotos Unsplash API
 const getPhotos = async () => {
   try {
     const response = await fetch(apiUrl);
